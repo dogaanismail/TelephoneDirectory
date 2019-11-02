@@ -1,0 +1,12 @@
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Entities\bin\Debug\TelephoneDirectory.Entities.dll.config
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Entities\bin\Debug\TelephoneDirectory.Entities.dll
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Entities\bin\Debug\TelephoneDirectory.Entities.pdb
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Entities\bin\Debug\EntityFramework.dll
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Entities\bin\Debug\EntityFramework.xml
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Entities\obj\Debug\TelephoneDirectory.Entities.csproj.CoreCompileInputs.cache
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Entities\obj\Debug\TelephoneDirectory.Entities.csproj.CopyComplete
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Entities\obj\Debug\TelephoneDirectory.Entities.dll
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Entities\obj\Debug\TelephoneDirectory.Entities.pdb
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Entities\obj\Debug\TelephoneDirectory.Entities.csprojAssemblyReference.cache

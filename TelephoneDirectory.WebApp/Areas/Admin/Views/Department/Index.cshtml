@@ -1,0 +1,116 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<div class="content-wrapper" ng-controller="DepartmentCtrl">
+
+    <!-- Content Header (Page header) -->
+    <section class="content-header">
+        <h1>
+            Departments
+        </h1>
+        <div class="text-right">
+            <a href="/Admin/Dashboard/Index"><i class="fa fa-dashboard"></i> Home</a>
+            <a href="/Admin/Department/Index"> Department List</a>
+            <span>{{UserState}}</span>
+        </div>
+    </section>
+    <!-- Main content -->
+    <section class="content">
+        <div class="row">
+            <div class="col-md-12">
+
+                <div ng-show="flgMessage" id="message" class="alert alert-dismissible">
+                    <button type="button" class="close" ng-click="hideMessage()" aria-hidden="true">&times;</button>
+                    <h4><i id="icon" class="icon fa "></i> Alert!</h4>
+                    {{message}}
+                </div>
+
+                <!-- general form elements -->
+                <div class="box box-primary" ng-show="flgTable">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Department List</h3>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-header">
+                        <button type="button" ng-click="addDepartment()" class="btn btn-primary"><i class="fa fa-plus"></i> Add Department</button>
+                    </div>
+                    <!-- /.box-header -->
+                    <div class="box-body">
+                        <div class="">
+                            <table id="departmentTable" class="table table-bordered table-striped">
+                                <thead>
+                                    <tr>
+                                        <td>Department Name</td>
+                                        <td>Action</td>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr ng-repeat="item in lstDepartment">
+                                        <td>{{item.DepartmentName}}</td>
+                                        <td>
+                                            <a href="#" class="btn btn-primary btn-circle" ng-click="editDepartment(item)" title="" data-toggle="tooltip" data-placement="top" data-original-title="Edit Department">
+                                                <i class="glyphicon glyphicon-pencil"></i>
+                                            </a>
+                                            <a href="#" class="btn btn-danger btn-circle" ng-click="deleteDepartment(item)" title="" data-toggle="tooltip" data-placement="top" data-original-title="Delete Department">
+                                                <i class="glyphicon glyphicon-trash"></i>
+                                            </a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+
+                            </table>
+                        </div>
+                    </div>
+                    <!-- /.box -->
+
+                </div>
+
+                <div class="box box-primary" ng-show="!flgTable">
+                    <div class="box-header with-border">
+                        <h3 class="box-title">Department Add/Update</h3>
+                    </div>
+
+                    <form role="form" id="form1" name="form1" novalidate ng-submit="formSubmit()">
+                        <div class="box-body">
+                            <div class="row">
+                                <div class="col-md-6">
+
+                                    <div class="form-group">
+                                        <label for="DepartmentName">Department Name</label>
+                                        <input type="text" class="form-control" required ng-model="model.DepartmentName" id="DepartmentName" placeholder="Department Name">
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label>Select a Manager</label>
+                                        <select class="form-control" name="ParentModuleId" ng-model="model.ManagerID">
+                                            <option value="0">Select a Manager</option>
+                                            <option ng-repeat="item in lstManager" value="{{item.EmployeeID}}">{{item.FirstName}} &nbsp; {{item.LastName}}</option>
+                                        </select>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <!-- /.box-body -->
+                        <div class="box-footer">
+                            <button type="button" ng-disabled="!form1.$valid" ng-click="createDepartment(model)" class="btn btn-primary">Submit</button>
+                            <button type="button" ng-click="reset()" class="btn btn-default">Cancel</button>
+                        </div>
+                    </form>
+                    <!-- /.box -->
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+    <!-- /.content -->
+</div>
+

@@ -1,0 +1,38 @@
+﻿@using TelephoneDirectory.Entities.EntityFramework
+@model  List<Employees>
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h3>Telephone Directory</h3>
+    <p class="lead">Here is a list of our company's employees !</p>  
+    <p class="lead">If you would like to look at a detail of an employee, you need to click the employee you want to look at from the list !</p>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">First Name</th>
+                    <th scope="col">Last Name</th>
+                    <th scope="col">Telephone Number</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var employee in Model)
+                {
+                    <tr>
+                        <th scope="row"><a href="/Home/EmployeeDetail/@employee.EmployeeID"> <span style="color:darkslategrey"> @employee.EmployeeID</span>    </a></th>
+                        <td><a href="/Home/EmployeeDetail/@employee.EmployeeID"><span style="color:darkslategrey">  @employee.FirstName </span> </a> </td>
+                        <td><a href="/Home/EmployeeDetail/@employee.EmployeeID"><span style="color:darkslategrey"> @employee.LastName </span> </a></td>
+                        <td><a href="/Home/EmployeeDetail/@employee.EmployeeID"><span style="color:darkslategrey">  @employee.Phone_Number </span> </a></td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+    </div>
+</div>

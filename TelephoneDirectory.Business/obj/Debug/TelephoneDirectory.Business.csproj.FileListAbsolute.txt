@@ -1,0 +1,17 @@
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\obj\Debug\TelephoneDirectory.Business.csprojAssemblyReference.cache
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\obj\Debug\TelephoneDirectory.Business.csproj.CoreCompileInputs.cache
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\bin\Debug\TelephoneDirectory.Business.dll
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\bin\Debug\TelephoneDirectory.Business.pdb
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\bin\Debug\Ninject.dll
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\bin\Debug\TelephoneDirectory.DataAccess.dll
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\bin\Debug\TelephoneDirectory.Entities.dll
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\bin\Debug\EntityFramework.dll
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\bin\Debug\TelephoneDirectory.DataAccess.pdb
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\bin\Debug\TelephoneDirectory.DataAccess.dll.config
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\bin\Debug\TelephoneDirectory.Entities.pdb
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\bin\Debug\TelephoneDirectory.Entities.dll.config
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\bin\Debug\Ninject.xml
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\bin\Debug\EntityFramework.xml
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\obj\Debug\TelephoneDirectory.Business.csproj.CopyComplete
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\obj\Debug\TelephoneDirectory.Business.dll
+C:\Users\dogan\Desktop\TelephoneDirectory\TelephoneDirectory\TelephoneDirectory.Business\obj\Debug\TelephoneDirectory.Business.pdb
